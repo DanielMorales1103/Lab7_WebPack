@@ -10875,16 +10875,15 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: #64dfdf;
+  background-color: #469696;
 }
 
 h1 {
   font-size: 36px;
-  color: #e71d36;
-  border: 2px solid;
-  text-shadow: -2px 2px #495057;
-  animation: animate__swing;
-  animation-duration: 2s;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 40px;
+  text-align: center;
 }
 
 p {
@@ -10895,6 +10894,16 @@ p {
 }
 
 ul {
-  padding-bottom: 50px;
+  padding-top: 70px;
+  font-size: 24px;
+}
+
+.col {
+  text-align: center;
+  border: 2px solid;;
+}
+
+#ul_diferente{
+  padding-top: 10px;
 }
 
