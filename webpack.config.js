@@ -59,7 +59,8 @@ module.exports = {
           options: {
             presets: [
               ['@babel/preset-env', { targets: "defaults" }]
-            ]
+            ],
+            plugins: ['@babel/plugin-transform-runtime']
           }
         }
       }
